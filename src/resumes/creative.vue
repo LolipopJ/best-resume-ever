@@ -22,6 +22,14 @@
         {{ person.knowledge }}
       </div>
 
+      <div class="multi-line-txt">
+        {{ person.welfare }}
+      </div>
+
+      <div class="multi-line-txt">
+        {{ person.Schoolwork }}
+      </div>
+
       <a :href="contactLinks.email">
         <div class="block-marged txt-full-white">
           {{ person.contact.email }}
@@ -215,7 +223,7 @@ export default Vue.component(name, getVueOptions(name));
   display: flex;
   position: relative;
 
-  font-family:'Roboto' !important;
+  font-family:'思源黑体' !important;
   font-size: 0.9em;
 }
 
@@ -227,7 +235,7 @@ export default Vue.component(name, getVueOptions(name));
   text-align: left;
 
   color: #ffffff;
-  color:rgba(255,255,255,0.59);
+  color:rgba(255,255,255,0.85);
   background-color: @accent-color;
   overflow: hidden;
   display: block;

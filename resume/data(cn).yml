@@ -1,0 +1,83 @@
+/* #*/ export const PERSON = `
+name:
+  first: 宋
+  middle:
+  last: 璟珅
+about: 作为主力参与了 4 个项目的前端页面设计，兼具一定的后端开发能力。热衷于使用第三方 UI 组件库或开发框架，擅长利用 Github 进行项目协作，通过官方文档和 Stack Overflow 学习并编写代码。
+position: 想要成为 Web 全栈工程师
+
+education:
+- degree: 软件工程（互联网“+”） 工学学士
+  timeperiod: 2018.09 - 2022.06
+  description: 将毕业于电子科技大学；正在攻读中
+
+skills:
+- name: Vue
+  level: 80
+- name: HTML5
+  level: 75
+- name: JavaScript
+  level: 75
+- name: Node.js
+  level: 65
+- name: CSS3
+  level: 55
+- name: Java
+  level: 80
+- name: C/C++
+  level: 70
+- name: Python
+  level: 60
+- name: PostgreSQL
+  level: 55
+- name: Shell
+  level: 50
+knowledge: 拥有一些 Photoshop 和 Premiere 的使用经验，经常设计制作海报和视频，具有一定审美能力。
+welfare: 参加过支教等公益项目，开发中通常担当项目组长，具有不错的合作沟通能力。
+Schoolwork: 当前 GPA 为 3.40，已通过 CET-4 和 CET-6，在第一学年获得奖学金。
+
+experience:
+- company: 暑期实训公司
+  position: 
+  timeperiod: 2020.07 - 2020.08
+  description: 期待您选择我成为实训生的一员，这将会是人生非常重要的经历
+  website: 
+
+projects:
+- name: Ivory Tower Timetable
+  platform: 微信小程序
+  timeperiod: 2020.05 - 2020.06
+  description: 一款由课程表驱动的大学生协作待办事项工具；前端设计
+  url: https://github.com/UESTC-cantdoit/wxapp-ivory-tower-timetable
+
+- name: NetUnion InternetRepairSys
+  platform: Vue
+  timeperiod: 2020.01 - 今
+  description: 电子科技大学宿舍网络在线报修系统；全栈开发中
+  url: https://github.com/LolipopJ/NetUnion-InternetRepairSys
+
+- name: NetUnion Recruit
+  platform: Node.js
+  timeperiod: 2019.10
+  description: 电子科技大学 NetUnion 招新网站(Demo)；前后端全栈
+  url: https://github.com/LolipopJ/NetUnion-Work-Demo/tree/master/NetUnion-Recruit-Nodejs
+
+- name: DawnStars PigmentTray
+  platform: Android
+  timeperiod: 2019.12 - 2020.01
+  description: 一款只实现了一键美颜功能的手机美颜相册 App；页面交互和后端设计
+  url: https://github.com/UESTC-DawnStars/DawnStars-PigmentTray
+
+contributions:
+- name: SOSCONF2020
+  description: 2020 年中文学生开源年会 Web 前端页面；“关于我们”和“分会场”前端设计
+  url: https://github.com/SteveCharlesYang/SOSCONF2020
+
+contact:
+  email: lolipop0703@qq.com
+  phone: +86 18980344225
+  street: 四川省攀枝花市
+  github: LolipopJ
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: cn
+`

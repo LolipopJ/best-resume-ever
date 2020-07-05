@@ -1,0 +1,77 @@
+/* #*/ export const PERSON = `
+name:
+  first: Jingshen
+  middle:
+  last: Song
+about: Participate in the front-end design of 4 projects and concurrently as back-end development. Passionate about introducing third-party UI component libraries or other development frameworks. Used to using official documents, Github, and Stack Overflow for coding.
+position: way to be Web Full Stack Developer
+
+education:
+- degree: Bachelor of Engineering (Studing)
+  timeperiod: 2018.09 - 2022.06
+  description: Major in Software Engineering, will graduate from UESTC.
+
+skills:
+- name: Vue
+  level: 80
+- name: HTML5
+  level: 75
+- name: JavaScript
+  level: 75
+- name: Node.js
+  level: 65
+- name: CSS3
+  level: 55
+- name: Java
+  level: 80
+- name: C/C++
+  level: 70
+- name: Python
+  level: 60
+- name: PostgreSQL
+  level: 55
+- name: Shell
+  level: 50
+knowledge: Have some experience in Adobe Photoshop and Premiere, designing posters and videos with a certain aesthetic ability.
+welfare: Participated in education support, and usually acts as the project leader in development, so has good cooperation skills.
+Schoolwork: Current GPA is 3.40. Have passed CET-6 and won a scholarship in the first academic year.
+
+experience:
+- company: Summer Training Company (Applying)
+  position: 
+  timeperiod: 2020.07 - 2020.08
+  description: Look forward to you choosing me as a trainee
+  website: 
+
+projects:
+- name: Ivory Tower Timetable
+  platform: Wxapp
+  timeperiod: 2020.05 - 2020.06
+  description: A collaborative to-do tool for college students driven by curriculum. Front-end design.
+  url: https://github.com/UESTC-cantdoit/wxapp-ivory-tower-timetable
+
+- name: NetUnion InternetRepairSys
+  platform: Vue
+  timeperiod: 2020.01 - 今
+  description: Online repair system for dormitory network of UESTC. Full Stack development.
+  url: https://github.com/LolipopJ/NetUnion-InternetRepairSys
+
+- name: NetUnion Recruit
+  platform: Node.js
+  timeperiod: 2019.10
+  description: UESTC NetUnion Recruitment Website (Demo); Full Stack development.
+  url: https://github.com/LolipopJ/NetUnion-Work-Demo/tree/master/NetUnion-Recruit-Nodejs
+
+contributions:
+- name: SOSCONF2020
+  description: Front-end web pages for the Students Open Source Conference 2020 of China. Front-end design of "About Us" and "Sub Venue".
+  url: https://github.com/SteveCharlesYang/SOSCONF2020
+
+contact:
+  email: lolipop0703@qq.com
+  phone: +86 18980344225
+  street: Pan Zhihua, Si Chuan.
+  github: LolipopJ
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: en
+`
