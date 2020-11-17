@@ -1,0 +1,81 @@
+/* #*/ export const PERSON = `
+name:
+  first: 宋
+  middle:
+  last: 璟珅
+about: 作为主力完成了 2 个项目的全栈开发，参与多个项目的前端开发设计。
+position: 想要成为软件全栈开发工程师
+
+education:
+- degree: 软件工程（互联网“+”） 工学学士
+  timeperiod: 2018.09 - 2022.06
+  description: 将毕业于电子科技大学；正在攻读中
+
+skills:
+- name: Vue
+  level: 85
+- name: JavaScript
+  level: 80
+- name: Java
+  level: 80
+- name: C/C++
+  level: 70
+- name: Python
+  level: 70
+
+welfare: 参加过支教等公益项目；开发中通常担当项目组长，具有不错的合作沟通能力。
+
+Schoolwork: 当前 GPA 为 3.55，已通过 CET-4 和 CET-6，在第一和第二学年均获得奖学金。
+
+# experience:
+# - company: 实习公司
+#   position: 
+#   timeperiod: 2021.01 - 2021.06
+#   description: 希望成为实习生的一员，学习
+#   website: 
+
+projects:
+- name: netunion-dnrs-web
+  platform: Vue/JS
+  timeperiod: 2020.02 - 2020.10
+  description: 电子科技大学宿舍网络在线报修系统；全栈开发
+  url: https://github.com/uestclug/netunion-dnrs-web
+
+- name: nu-official
+  platform: Vue/JS
+  timeperiod: 2020.10 - 2020.11
+  description: 电子科技大学 Netunion 官方主页；全栈开发
+  url: https://github.com/uestclug/nu-official
+
+- name: wxapp-ivory-tower-timetable
+  platform: WXML/JS
+  timeperiod: 2020.05 - 2020.06
+  description: 由课程表驱动的大学生协作待办事项小程序；前端开发
+  url: https://github.com/UESTC-cantdoit/wxapp-ivory-tower-timetable
+
+- name: uestc-tvly-web
+  platform: Vue
+  timeperiod: 2020.11 - 今
+  description: 电子科技大学 IPTV 前端；基于 tvly-web, 前端开发中
+  url: https://github.com/uestclug/uestc-tvly-web
+
+contributions:
+- name: SOSCONF2020
+  description: 2020 年中文学生开源年会前端页面；“关于我们”和“分会场”页面前端设计
+  url: https://gitlab.com/uestclug/sosconf_zh.gitlab.io
+
+awards:
+- name: 微信小程序应用开发赛西南赛区三等奖
+  description: 2020 年；省区级
+
+- name: 社会实践优秀个人
+  description: 2019 年；校级
+
+contact:
+  email: lolipop0703@qq.com
+  phone: +86 18980344225
+  street: 四川省成都市
+  github: LolipopJ
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: cn
+`

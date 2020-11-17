@@ -104,7 +104,7 @@
     </div>
 
     <div class="right-column">
-      <div class="experience-section section">
+      <!-- <div class="experience-section section">
         <div class="icon">
           <i class="material-icons small-icon">work</i>
           <span class="section-headline">{{ lang.experience }}</span>
@@ -121,7 +121,7 @@
             <span class="section-content__text--light"> {{ experience.description }}</span>
           </a>
         </div>
-      </div>
+      </div> -->
 
       <div class="education-section section">
         <div class="icon">
@@ -202,6 +202,24 @@
           </a>
         </div>
       </div>
+
+      <div v-if="person.awards"
+        class="contributions-section section">
+
+        <div class="icon">
+          <i class="fa fa-trophy font-awesome-icons"></i>
+          <span class="section-headline"> {{lang.awards}} </span>
+        </div>
+
+        <div class="section-content-grid">
+          <a v-for="(award, index) in person.awards" :key="index"
+            class="section-content__item-grid">
+
+            <span class="section-content__header"> {{ award.name }} </span>
+            <span class="section-content__text"> {{ award.description }} </span>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -223,7 +241,7 @@ export default Vue.component(name, getVueOptions(name));
   display: flex;
   position: relative;
 
-  font-family:'思源黑体' !important;
+  font-family:'Source Han Sans CN' !important;
   font-size: 0.9em;
 }
 
